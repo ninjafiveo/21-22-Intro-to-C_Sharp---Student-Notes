@@ -10,6 +10,19 @@ namespace Day_One_Sample
     {
         static void Main(string[] args)
         {
+            //SampleCode();
+            //Here is a single line comment. Ctrl+K+C adds comments. Ctrl+K+U uncomments your code.
+            /* Here are some
+             * Multiline
+             * Comments. 
+             * Use Slash & Asterisk
+             */
+
+            Console.ReadKey();
+        }
+
+        static void SampleCode()
+        {
             Console.WriteLine("Hello Ninja!");
             Console.WriteLine("Hello " + "Ninja!");
             Console.Write("What is your name? ");
@@ -38,8 +51,7 @@ namespace Day_One_Sample
             {
                 Console.WriteLine("I don't know what you wrote.");
             }
-               
-            Console.ReadKey();
         }
+
     }
 }
